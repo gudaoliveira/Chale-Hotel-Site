@@ -1,0 +1,17 @@
+"Chalé Hotel" Page:
+        Create the page Structure:
+            Header:
+                ☐ Background image
+                ☐ Logo with a link to the home page
+                ☐ Navigation bar with links to the other pages made with lists
+                ☐ Menu with the locations of the hotel and a button to book a room
+            Content (Must be responsive):
+                ☐ Title
+                ☐ Paragraph with Lorem Ipsum
+            Aside:
+                ☐ Menu created whit lists with a image, title and the description of the hotel places
+                    ☐ Rooms
+                    ☐ Restaurant
+                    ☐ Pool
+            Footer:
+                ☐ © Copyright 2000-2020 Chalé Hotel
