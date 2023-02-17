@@ -1,10 +1,11 @@
 "Chalé Hotel" Page:
         Create the page Structure:
             Header:
-                ☐ Background image
-                ☐ Logo with a link to the home page
-                ☐ Navigation bar with links to the other pages made with lists
-                ☐ Menu with the locations of the hotel and a button to book a room
+                ✔ Background image @done (2/17/2023, 10:41:08 AM)
+                ✔ Logo @done (2/17/2023, 10:41:36 AM)
+                ✔ Menu with the locations of the hotel and a button to book a room @done (2/17/2023, 10:41:14 AM)
+                ✔ Navigation bar with links to the other pages made with lists @done (2/17/2023, 10:41:21 AM)
+                ✔ Feedback image @done (2/17/2023, 10:41:22 AM)
             Content (Must be responsive):
                 ☐ Title
                 ☐ Paragraph with Lorem Ipsum
