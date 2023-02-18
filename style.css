@@ -7,6 +7,7 @@ a{text-decoration: none; color: #a29750;}
 .container{
     margin: 0 auto;
     min-width: 740px; max-width: 1180px;
+    background: url("imagens/bg-container.png") repeat-y;
 }
 
 /* Styling the header */
@@ -27,7 +28,7 @@ a{text-decoration: none; color: #a29750;}
         padding: 15px;
     }
 
-    /* Styling the objects of the headerSideMenu */
+/* Styling the objects of the headerSideMenu */
     .locationsMenu{
         margin: 0 0 15px 90px;
         padding: 8px 0;
@@ -59,10 +60,10 @@ a{text-decoration: none; color: #a29750;}
         font-size: .7em;
     }
     #bookButton:hover{
-        background: #ffe67e;
+        background: #f6f3d6;
         color: #a29750;
     }
-    /* Styling the vertical navigation bar */
+/* Styling the vertical navigation bar */
     .navBar{
         width: 125px;
         margin-left: 90px;
@@ -77,30 +78,69 @@ a{text-decoration: none; color: #a29750;}
     }
     .navBar li:hover,
     .navBar a:hover{
-        background: #ffe67e;
+        background: #f6f3d6;
     }
     .navBar a:visited{
         text-decoration: none;
         color: inherit;
     }
-    /* Styling the feedback image */
+/* Styling the feedback image */
     .feedback{
         float: right;
     }
 
 /* Styling the content */
-.content{
-    background: #ede9cc url("imagens/bg-area-principal.png") repeat-x top;
-    padding: 15px;
-    width: 50%;
-}
-.content h2{
-    color: #a29750;
-    padding-top: 10px;
-}
-.content p{
-    display: block;
-    margin-block-start: 1em; margin-block-end: 1em;
-    margin-inline-start: 1em; margin-inline-end: 1em;
+    .content{
+        background: #ede9cc url("imagens/bg-area-principal.png") repeat-x top;
+        padding: 15px 0;
+        width: 50%;
+        float: left;
+    }
+    .content h2{
+        color: #a29750;
+        padding-top: 10px;
+        margin-inline-start: 1em;
+    }
+    .content p{
+        display: block;
+        margin-block-start: 1em; margin-block-end: 1em;
+        margin-inline-start: 1.5em; margin-inline-end: 1.5em;
+    }
 
+/* Styling the aside*/
+aside{
+    width: 50%;
+    background: #ded9b7 url("imagens/bg-area-lateral.png") repeat-x top;
+    float: left;
+    padding: 20px 0;
+}
+.asideMenu ul{
+    width: 90%;
+    margin: 0 auto;
+}
+.asideMenu li{
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+.asideMenu li:hover{
+    background: #f6f3d6;
+}
+.asideMenu img{
+    width: 150px;
+    float: left;
+}
+.asideMenu h3,
+.asideMenu p{
+    display: block;
+    margin-block-start: .3em;
+    margin-inline-start: 165px;
+}
+.asideMenu h3{
+    font-size: 1em;
+    color: #615b2d;
+    background: url("imagens/ornamento.png") no-repeat right;
+}
+.asideMenu p{
+    color: black;
+    font-size: .8em;
 }
