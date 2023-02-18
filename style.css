@@ -108,39 +108,45 @@ a{text-decoration: none; color: #a29750;}
     }
 
 /* Styling the aside*/
-aside{
-    width: 50%;
-    background: #ded9b7 url("imagens/bg-area-lateral.png") repeat-x top;
-    float: left;
-    padding: 20px 0;
-}
-.asideMenu ul{
-    width: 90%;
-    margin: 0 auto;
-}
-.asideMenu li{
-    padding: 8px;
-    border-bottom: 1px solid white;
-}
-.asideMenu li:hover{
-    background: #f6f3d6;
-}
-.asideMenu img{
-    width: 150px;
-    float: left;
-}
-.asideMenu h3,
-.asideMenu p{
-    display: block;
-    margin-block-start: .3em;
-    margin-inline-start: 165px;
-}
-.asideMenu h3{
-    font-size: 1em;
-    color: #615b2d;
-    background: url("imagens/ornamento.png") no-repeat right;
-}
-.asideMenu p{
-    color: black;
-    font-size: .8em;
-}
+    aside{
+        width: 50%;
+        background: #ded9b7 url("imagens/bg-area-lateral.png") repeat-x top;
+        float: left;
+        padding: 20px 0;
+    }
+    .asideMenu ul{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .asideMenu li{
+        padding: 8px;
+        border-bottom: 1px solid white;
+    }
+    .asideMenu li:hover{
+        background: #f6f3d6;
+    }
+    .asideMenu img{
+        width: 150px;
+        float: left;
+    }
+    .asideMenu h3,
+    .asideMenu p{
+        display: block;
+        margin-block-start: .3em;
+        margin-inline-start: 165px;
+    }
+    .asideMenu h3{
+        font-size: 1em;
+        color: #615b2d;
+        background: url("imagens/ornamento.png") no-repeat right;
+    }
+    .asideMenu p{
+        color: black;
+        font-size: .8em;
+    }
+/* Styling the footer */
+    .footer{
+        background: white url("imagens/bg-rodape.png") repeat-x top;
+        padding: 20px;
+        color: #a29750;
+    }
